@@ -66,3 +66,6 @@ A versão mobile do protótipo foi feita para a tela de um IPhone SE. A intenç�
 <img src="./imagens_prototipo/iPhone SE - Página Inicial.png">
 
 ### Versão Desktop
+A versão para Desktop busca se adaptar a dispositivos com telas maiores, segue abaixo imagem do esboço para a versão desktop:
+
+<img src="./imagens_prototipo/desktop.png">
