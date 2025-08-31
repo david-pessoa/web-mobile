@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --dark-blue: #076980;
+    --blue: #08A6C5;
+}
