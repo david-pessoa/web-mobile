@@ -1,9 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Configurações iniciais */
 * {
     margin: 0;
     padding: 0;
 }
 
+body{
+    background-color: #FFF;
+}
+
 :root{
     --dark-blue: #076980;
     --blue: #08A6C5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+p{
+    font-family: "Nunito", "Arial", sans-serif;
+    font-weight: 400;
+}
+
+.white-background{
+    background-color: transparent;
+    color: var(--dark-blue);
+}
+
+.blue-background{
+    background-color: var(--blue);
+    color: #FFF;
+}
+
+.dark-background{
+    background-color: var(--dark-blue);
+    color: #FFF;
+}
+
+footer{
+    background-color: #F0F0F0;
+    color: #000;
+}
+
+.medium{
+    font-weight: 500;
+}
+
+/* Header */
+header{
+    padding: 2em 4em;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2vw;
+}
+
+nav ul li a{
+    color: #FFF;
+    text-decoration: none;
 }
