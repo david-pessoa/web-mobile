@@ -108,12 +108,19 @@ nav ul li a{
     flex-flow: column;
     max-width: 25rem;
     overflow: hidden;
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.5);
 }
 
 #especialidades figure img{
     display: block;
     max-width: 25rem;
     max-height: 25rem;
+    border-radius: 7px;
+}
+
+#especialidades figure:hover img{
+    display: block;
+    border-radius: 7px;
 }
 
 #especialidades figure figcaption{
@@ -123,7 +130,7 @@ nav ul li a{
     width: 100%;
     position: absolute;
     bottom: 0; /* gruda na parte inferior */
-    transition: 0.5s ease-in-out;
+    transition: all .7ss ease-in-out;
     padding-top: 1rem;
 }
 
@@ -132,7 +139,7 @@ nav ul li a{
     text-align: center;
     font-weight: 400;
     margin-bottom: 1rem;
-    transition: 0.5s ease-in-out;
+    transition: all .7s ease-in-out;
 }
 
 #especialidades figure figcaption p{
@@ -140,7 +147,7 @@ nav ul li a{
     max-height: 0;        /* esconde */
     opacity: 0;           /* invisível */
     overflow: hidden;     /* não deixa vazar */
-    transition: all 1s ease-in-out;
+    transition: all .7s ease-in-out;
     margin-left: 1rem;
 }
 
