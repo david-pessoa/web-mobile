@@ -18,10 +18,12 @@ body{
 h1, h2, h3, h4, h5, h6{
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
+    text-align: center;
 }
 
 h1{
     font-size: 2.83rem;
+    margin-bottom: 8vh;
 }
 
 h2{
@@ -36,7 +38,7 @@ h4{
     font-size: 1.5rem;
 }
 
-p{
+p, blockquote{
     font-family: "Nunito", "Arial", sans-serif;
     font-weight: 400;
 }
@@ -86,11 +88,6 @@ nav ul li a{
 }
 
 /* Especialidades/Serviços */
-#especialidades h1{
-    text-align: center;
-    margin-bottom: 8vh;
-}
-
 #especialidades ul{
     display: flex;
     flex-wrap: wrap;
@@ -136,7 +133,6 @@ nav ul li a{
 
 #especialidades figure figcaption h4{
     text-transform: uppercase;
-    text-align: center;
     font-weight: 400;
     margin-bottom: 1rem;
     transition: all .7s ease-in-out;
@@ -155,4 +151,52 @@ nav ul li a{
   max-height: 300px;
   opacity: 1; 
   margin-bottom: 1rem;
+}
+
+/* Depoimentos */
+#depoimentos{
+    margin-top: 10vh;
+    padding-top: 3vh;
+}
+
+#depoimentos ul{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+#depoimentos ul li{
+    width: 20.295rem;
+    height: 17.438rem;
+    border-radius: 7px;
+    margin-bottom: 7vh;
+    list-style: none;
+    padding-left: 1.438rem;
+    padding-right: 1.438rem;
+}
+
+#depoimentos ul li .quotes{
+    font-family: "Plus Jakarta Sans", "Arial", sans-serif;
+    font-size: 6rem;
+}
+
+#depoimentos ul li .below{
+    text-align: end;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: -1rem;
+}
+
+#depoimentos ul li blockquote{
+    font-size: 1rem;
+    margin-top: -3rem;
+}
+
+#depoimentos ul li .name{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -5rem;
+    padding-top: 1rem;
 }
