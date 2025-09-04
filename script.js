@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
       })
       .then(data => {
           // Carrega Boxes com os depoimentos dinamicamente
-          const testData = [data[0], data[1], data[2]]; //Apenas usando um array de teste enquanto não usa um carrossel
+          const testData = [data[1]]; //Apenas usando um array de teste enquanto não usa um carrossel
           testData.forEach((depoimento) => {
           const item = document.createElement("li");
           item.className = "dark-background";
@@ -23,9 +23,9 @@ document.addEventListener("DOMContentLoaded", function() {
           for(let i = 0; i < 5; i++)
           {
             if(estrelas > 0)
-              starLine += '<i class="lni-star-filled"></i>';
+              starLine += '<i class="fa-solid fa-star"></i>';
             else
-              starLine += '<i class="lni-star-half"></i>'
+              starLine += '<i class="fa-regular fa-star"></i>'
 
             estrelas--;
           }
