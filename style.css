@@ -167,7 +167,7 @@ nav ul li a{
 
 #depoimentos ul li{
     width: 20.295rem;
-    height: 17.438rem;
+    height: 19.438rem;
     border-radius: 7px;
     margin-bottom: 7vh;
     list-style: none;
@@ -191,12 +191,24 @@ nav ul li a{
 #depoimentos ul li blockquote{
     font-size: 1rem;
     margin-top: -3rem;
+    height: 8.063rem;
 }
 
-#depoimentos ul li .name{
+#depoimentos ul li cite{
+    display: flex;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    text-align: center;
-    margin-top: -5rem;
-    padding-top: 1rem;
+    width: 100%;
+    justify-content: center;
+    font-style: normal;
+    margin-top: -4rem;
+    margin-bottom: 0.6rem;
+
+}
+
+#depoimentos ul li .stars{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.5rem;
 }
