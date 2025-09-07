@@ -207,8 +207,20 @@ nav ul li a{
     margin-bottom: 5px;
 }
 
+#depoimentos .swiper-button-prev{
+    left: var(--swiper-navigation-sides-offset, 60px);
+    right: auto;
+}
+
+#depoimentos .swiper-button-next{
+    left: auto;
+    right: var(--swiper-navigation-sides-offset, 60px);
+}
+
 #depoimentos .swiper-button-prev, .swiper-button-next.swiper-button-next{
     color: #FFF;
+    background-color: transparent;
+    border: none;
     margin-top: -15rem;
     top: auto;
 }
@@ -298,5 +310,14 @@ nav ul li a{
     #depoimentos ul li .stars{
         font-size: 1.3rem;  
     }
- 
+
+    #depoimentos .swiper-button-prev{
+        left: var(--swiper-navigation-sides-offset, 20px);
+        right: auto;
+    }
+
+    #depoimentos .swiper-button-next{
+        left: auto;
+        right: var(--swiper-navigation-sides-offset, 20px);
+    }
 }
