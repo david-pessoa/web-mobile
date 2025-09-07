@@ -1,0 +1,52 @@
+[
+    {
+        "pessoa": "Ana Beatriz Moura",
+        "texto": "Fiquei extremamente satisfeita com o atendimento neste consultório. A dra. Alzira demonstra muito cuidado em cada etapa do tratamento, explicando todos os detalhes de forma clara e objetiva. O ambiente transmite tranquilidade.",
+        "estrelas": 5
+    },
+    {
+        "pessoa": "Lucas Andrade",
+        "texto": "O consultório oferece bons serviços e a dentista é competente, mas a organização dos horários poderia melhorar. Tive que esperar bastante para ser atendido, o que me incomodou um pouco. Ainda assim, o resultado final do meu tratamento foi satisfatório.",
+        "estrelas": 3
+    },
+    {
+        "pessoa": "Fernanda Lima",
+        "texto": "Sou paciente há alguns anos e sempre me sinto acolhida. A equipe é atenciosa e se preocupa com o bem-estar do paciente. Além disso, os tratamentos são realizados com muito profissionalismo e tecnologia atualizada, garantindo resultados de alta qualidade.",
+        "estrelas": 5
+    },
+    {
+        "pessoa": "João Pedro Ferreira",
+        "texto": "O espaço é moderno e bem equipado, mas senti falta de uma explicação mais detalhada sobre os procedimentos. Saí com algumas dúvidas e não tive tanta segurança durante o atendimento. Acredito que poderiam melhorar a comunicação com os pacientes.",
+        "estrelas": 2
+    },
+    {
+        "pessoa": "Camila Torres",
+        "texto": "Fiz limpeza e clareamento dental e o resultado foi incrível. Desde a recepção até o final do atendimento, fui tratada com muita atenção e simpatia. O consultório tem um ambiente agradável e aconchegante, o que deixa tudo mais leve. Recomendo fortemente.",
+        "estrelas": 5
+    },
+    {
+        "pessoa": "Rafael Souza",
+        "texto": "Gostei bastante do atendimento e da dedicação da dra. Alzira. Ela é muito cuidadosa e o ambiente é agradável. Apenas achei o preço um pouco acima da média, mas a qualidade do serviço justifica o valor. No geral, foi uma ótima experiência e pretendo voltar sempre.",
+        "estrelas": 4
+    },
+    {
+        "pessoa": "Mariana Oliveira",
+        "texto": "O atendimento foi cordial e a recepcionista muito simpática, mas houve atraso no agendamento e precisei remarcar minha consulta. Apesar disso, a dentista demonstra bastante competência e conhecimento. O resultado foi bom, mas esperava mais pontualidade.",
+        "estrelas": 3
+    },
+    {
+        "pessoa": "Eduardo Gomes",
+        "texto": "Fiz uma restauração e fiquei impressionado com a precisão do trabalho. A dentista explicou todas as etapas do processo e me deixou seguro durante o atendimento. Além disso, o consultório é muito limpo e organizado, o que transmite uma sensação de confiança.",
+        "estrelas": 5
+    },
+    {
+        "pessoa": "Patrícia Carvalho",
+        "texto": "Iniciei um tratamento ortodôntico recentemente e já estou percebendo excelentes resultados. A doutora se mostrou atenciosa desde a primeira consulta e tirou todas as minhas dúvidas. O ambiente é moderno e agradável, me sinto confortável a cada visita.",
+        "estrelas": 5
+    },
+    {
+        "pessoa": "Bruno Martins",
+        "texto": "Achei que o atendimento poderia ser mais personalizado. Em alguns momentos senti que não houve a devida atenção às minhas necessidades específicas. Embora o consultório seja bem estruturado, esperava um acompanhamento mais próximo durante o processo.",
+        "estrelas": 2
+    }
+]

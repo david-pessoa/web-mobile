@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultório Odontológico</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦷</text></svg>">
+    <link rel="icon" href="./website_images/logo.png" height="30px">
 </head>
 <body>
     <!-- Cabeçalho -->
@@ -30,8 +31,70 @@
     </section>
 
     <!-- Seção de Especialidades/Serviços -->
-    <section id="especialidades">
-
+    <section id="especialidades" class="white-background">
+	<h1>Especialidades</h1>
+	<ul id="serviceList">
+		<li id="esteticaItem">
+			<figure>
+				<img src="./website_images/estetica.png" alt="Estética">
+				<figcaption>
+					<h4>Estética</h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, vulputate augue quis, interdum urna. Etiam pharetra ex non auctor tincidunt. Etiam ornare leo in rutrum elementum. Curabitur in urna dolor.
+					</p>
+				</figcaption>
+			</figure>
+		</li>
+		<li id="dentisticaItem">
+			<figure>
+				<img src="./website_images/dentistica.png" alt="Dentística">
+				<figcaption>
+					<h4>Dentística</h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, vulputate augue quis, interdum urna. Etiam pharetra ex non auctor tincidunt. Etiam ornare leo in rutrum elementum. Curabitur in urna dolor.
+					</p>
+				</figcaption>
+			</figure>
+		</li>
+		<li id="periodontiaItem">
+			<figure>
+				<img src="./website_images/periodontia.png" alt="Periodontia">
+				<figcaption>
+					<h4>Periodontia</h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, vulputate augue quis, interdum urna. Etiam pharetra ex non auctor tincidunt. Etiam ornare leo in rutrum elementum. Curabitur in urna dolor.
+					</p>
+				</figcaption>
+			</figure>
+		</li>
+		<li id="endodontiaItem">
+			<figure>
+				<img src="./website_images/endodontia.png" alt="Endodontia">
+				<figcaption>
+					<h4>Endodontia</h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, vulputate augue quis, interdum urna. Etiam pharetra ex non auctor tincidunt. Etiam ornare leo in rutrum elementum. Curabitur in urna dolor.
+					</p>
+				</figcaption>
+			</figure>
+		</li>
+		<li id="ortodontiaItem">
+			<figure>
+				<img src="./website_images/ortodontia.png" alt="Ortodontia">
+				<figcaption>
+					<h4>Ortodontia</h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, vulputate augue quis, interdum urna. Etiam pharetra ex non auctor tincidunt. Etiam ornare leo in rutrum elementum. Curabitur in urna dolor.
+					</p>
+				</figcaption>
+			</figure>
+		</li>
+		<li id="implantodontiaItem">
+			<figure>
+				<img src="./website_images/implantodontia.png" alt="Implantodontia">
+				<figcaption>
+					<h4>Implantodontia</h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, vulputate augue quis, interdum urna. Etiam pharetra ex non auctor tincidunt. Etiam ornare leo in rutrum elementum. Curabitur in urna dolor.
+					</p>
+				</figcaption>
+			</figure>
+		</li>
+	</ul>
     </section>
 
     <!-- Seção Sobre -->
@@ -45,7 +108,20 @@
     </section>
 
     <!-- Depoimentos -->
-    <section id="depoimentos">
+    <section id="depoimentos" class="blue-background">
+		<h1>Depoimentos</h1>
+		<div class="swiper">
+			<ul id="listaDepoimentos" class="swiper-wrapper">
+				<!-- Lista renderizada dinamicamente pelo Javascript -->
+			</ul>
+			<!-- If we need pagination -->
+  			<span class="swiper-pagination"></span>
+		</div>
+		
+
+  		<!-- If we need navigation buttons -->
+  		<button class="swiper-button-prev"></button>
+  		<button class="swiper-button-next"></button>
 
     </section>
 
@@ -53,6 +129,8 @@
     <footer id="contato">
 
     </footer>
-    <script src="script.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>
