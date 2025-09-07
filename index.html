@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultório Odontológico</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     
     <link rel="icon" href="./website_images/logo.png" height="30px">
 </head>
@@ -26,7 +27,7 @@
 
     <!-- Seção de Início -->
     <section id="inicio">
-        <!-- <img src="./website_images/consultorio.png" alt="Imagem do Consultório"> -->
+        <img src="./website_images/consultorio.png" alt="Imagem do Consultório">
     </section>
 
     <!-- Seção de Especialidades/Serviços -->
@@ -109,15 +110,27 @@
     <!-- Depoimentos -->
     <section id="depoimentos" class="blue-background">
 		<h1>Depoimentos</h1>
-		<ul id="listaDepoimentos">
-			<!-- Lista renderizada dinamicamente pelo Javascript -->
-		</ul>
+		<div class="swiper">
+			<ul id="listaDepoimentos" class="swiper-wrapper">
+				<!-- Lista renderizada dinamicamente pelo Javascript -->
+			</ul>
+			<!-- If we need pagination -->
+  			<div class="swiper-pagination"></div>
+		</div>
+		
+
+  		<!-- If we need navigation buttons -->
+  		<div class="swiper-button-prev"></div>
+  		<div class="swiper-button-next"></div>
+
     </section>
 
     <!-- Rodapé com formulário, iframe do Google Maps e Informações de Contato -->
     <footer id="contato">
 
     </footer>
-    <script src="script.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>

@@ -195,12 +195,26 @@ nav ul li a{
 #depoimentos{
     margin-top: 10vh;
     padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 #depoimentos ul{
     display: flex;
-    justify-content: center;
-    gap: 5rem;
+    padding-bottom: 20px;
+}
+
+#depoimentos .swiper .swiper-pagination{
+    margin-bottom: 5px;
+}
+
+#depoimentos .swiper-button-prev, .swiper-button-next.swiper-button-next{
+    color: #FFF;
+    margin-top: -15rem;
+    top: auto;
+}
+
+#depoimentos .swiper-pagination-bullet-active{ 
+    background-color: #FFF;
 }
 
 #depoimentos ul li{
@@ -211,6 +225,7 @@ nav ul li a{
     list-style: none;
     padding-left: 1.438rem;
     padding-right: 1.438rem;
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.5);
 }
 
 #depoimentos ul li .quotes{
