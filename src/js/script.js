@@ -43,7 +43,8 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     })
     .catch(error => console.error(error));
-  
+    
+  // Lógica do Carrossel de depoimentos
   const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
