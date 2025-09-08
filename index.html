@@ -35,9 +35,32 @@
     </section>
 
     <!-- Seção Sobre -->
-    <section id="sobre">
+	<section id="sobre">
+	  <h2>Sobre</h2>
+	  <section class="sobre-container">
+    
 
-    </section>
+	    <section class="sobre-coluna">
+	      <figure class="sobre-figura">
+	        <img src="img\dentista.jfif" alt="A dentista">
+	        <figcaption>
+	          <h5 class="medium">Dra. Alzira Varão Lima</h5>
+	          <h5>Periodontista formada pela USP</h5>
+	        </figcaption>
+	      </figure>
+	    </section>
+
+
+    	<section class="sobre-coluna">
+    	  <p>
+    	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, 
+    	    vulputate augue quis, interdum urna. Etiam pharetra ex non auctor tincidunt. Etiam ornare 
+    	    leo in rutrum elementum. Curabitur in urna dolor. Sed feugiat ullamcorper massa in egestas. 
+    	    Sed consequat, sapien quis ornare porta, diam orci interdum diam, eget vehicula ipsum nulla 
+    	    vel risus. Phasellus efficitur hendrerit nisi, nec ultrices augue mollis at. 
+    	  </p>
+    	</section>
+	</section>
 
     <!-- Barra de status -->
     <section id="status-bar">
@@ -51,6 +74,62 @@
 
     <!-- Rodapé com formulário, iframe do Google Maps e Informações de Contato -->
     <footer id="contato">
+		  <h2>Formulário de Contato</h2>
+		  <section class="contato-container">
+
+
+		    <form class="formulario">
+		      <label for="nome">Nome</label>
+		      <input type="text" id="nome" name="nome">
+
+		      <label for="email">Email</label>
+		      <input type="email" id="email" name="email">
+
+		      <label for="assunto">Assunto</label>
+		      <input type="text" id="assunto" name="assunto">
+
+		      <label for="especialidade">Selecione uma especialidade</label>
+		      <select id="especialidade" name="especialidade">
+		        <option>Selecione</option>
+		        <option>Estética</option>
+		        <option>Dentística</option>
+		        <option>Periodontia</option>
+		        <option>Endodontia</option>
+		        <option>Ortodontia</option>
+		        <option>Implantodontia</option>
+		      </select>
+
+    		  <label for="modalidade">Modalidade</label>
+    		  <select id="modalidade" name="modalidade">
+    		    <option>Presencial</option>
+    		    <option>Teleconsulta</option>
+    		  </select>
+
+    		  <label for="mensagem">Mensagem</label>
+    		  <textarea id="mensagem" name="mensagem"></textarea>
+
+    		  <button type="submit">Enviar</button>
+    		</form>
+
+
+    		<section>
+    		  <section class="mapa">
+    		    <iframe
+    		      src="https://maps.google.com/maps?q=Rua%20Chemin%20Del%20Pra,%20172,%20São%20Paulo&t=m&z=15&output=embed&iwloc=near"
+    		      title="Mapa da clínica"></iframe>
+    		  </section>
+
+    		  <section class="info">
+    		    <h5><strong>Fale Conosco</strong></p>
+    		    <h5>(11) 98839-8134</p>
+    		    <h5>(11) 98839-8134</p>
+    		    <h5>consultoria.alzira@gmail.com</p>
+    		    <h5>Rua Chemin Del Pra, nº 172, São Paulo, Santana</p>
+    		  </section>
+    		  </section>
+
+    		</section>
+
 
     </footer>
     <script src="script.js"></script>
