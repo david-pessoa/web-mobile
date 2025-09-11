@@ -103,8 +103,8 @@
     <!-- Seção Sobre -->
     <section id="sobre" class="blue-background">
 	  	<h1>Sobre</h1>
-		<div class="sobre-container">
-			<div class="sobre-coluna">
+		<article class="sobre-container">
+			<aside class="sobre-coluna">
 				<h3>A dentista</h3>
 	    	  	<figure class="sobre-figura">
 	    	    	<img src="./src/img/dentista-fake.jpeg" alt="A dentista">
@@ -113,7 +113,7 @@
 	    	    	  	<h5>Periodontista formada pela USP</h5>
 	    	    	</figcaption>
 	    	  	</figure>
-	    	</div>
+	    	</aside>
 
 			<p class="sobre-coluna">
     		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, 
@@ -127,31 +127,33 @@
 			  Maecenas sed ullamcorper sapien. Etiam sit amet feugiat magna. In hac habitasse platea dictumst. 
 			  Vivamus congue justo nec euismod scelerisque. Duis pretium iaculis erat.
     		</p>
-		</div>
+		</article>
 	</section>
 
     <!-- Barra de status -->
     <section id="status-bar" class="estatisticas">
-        <div class="estatistica">
-            <h1 class="numero">120</h1>
-            <span class="texto">Anos Atendendo</span>
-        </div>
-        <div class="estatistica">
-            <h1 class="numero">15</h1>
-            <span class="texto">Pacientes</span>
-        </div>
-        <div class="estatistica">
-            <h1 class="numero">10</h1>
-            <span class="texto">Certificações</span>
-        </div>
-        <div class="estatistica">
-            <h1 class="numero">120</h1>
-            <span class="texto">Procedimentos Realizados</span>
-        </div>
-        <div class="estatistica">
-            <h1 class="numero">120</h1>
-            <span class="texto">Pacientes</span>
-        </div>
+		<ul>
+        	<li class="estatistica">
+        	    <h1 class="numero">120</h1>
+        	    <span class="texto">Anos Atendendo</span>
+        	</li>
+        	<li class="estatistica">
+        	    <h1 class="numero">15</h1>
+        	    <span class="texto">Pacientes</span>
+        	</li>
+        	<li class="estatistica">
+        	    <h1 class="numero">10</h1>
+        	    <span class="texto">Certificações</span>
+        	</li>
+        	<li class="estatistica">
+        	    <h1 class="numero">120</h1>
+        	    <span class="texto">Procedimentos Realizados</span>
+        	</li>
+        	<li class="estatistica">
+        	    <h1 class="numero">120</h1>
+        	    <span class="texto">Pacientes</span>
+        	</li>
+		</ul>
     </section>
 
     <!-- Depoimentos -->
@@ -174,26 +176,26 @@
 
     <!-- Rodapé com formulário, iframe do Google Maps e Informações de Contato -->
     <footer id="contato">
-		  	<div class="contato-container">
+		  	<section class="contato-container">
 		    <form class="formulario">
 				<h3>Formulário de Contato</h3>
 				
-				<div class="input-field">
+				<fieldset class="input-field">
 		      		<label for="nome">Nome</label>
 		      		<input type="text" id="nome" name="nome">
-			  	</div>
+			  	</fieldset>
 			
-				<div class="input-field">
+				<fieldset class="input-field">
 		      		<label for="email">Email</label>
 		      		<input type="email" id="email" name="email">
-				</div>
+				</fieldset>
 
-				<div class="input-field">
+				<fieldset class="input-field">
 		      		<label for="assunto">Assunto</label>
 		      		<input type="text" id="assunto" name="assunto">
-				</div>
+				</fieldset>
 
-				<div class="input-field">
+				<fieldset class="input-field">
 		      		<label for="especialidade">Selecione uma especialidade</label>
 		      		<select id="especialidade" name="especialidade">
 		        		<option>Selecione</option>
@@ -204,20 +206,20 @@
 		        		<option>Ortodontia</option>
 		        		<option>Implantodontia</option>
 		      		</select>
-				</div>
+				</fieldset>
 
-				<div class="input-field">
+				<fieldset class="input-field">
     		  		<label for="modalidade">Modalidade</label>
     		  		<select id="modalidade" name="modalidade">
     		    		<option>Presencial</option>
     		    		<option>Teleconsulta</option>
     		  		</select>
-				</div>
+				</fieldset>
 
-				<div class="input-field">
+				<fieldset class="input-field">
     		  		<label for="mensagem">Mensagem</label>
     		  		<textarea id="mensagem" name="mensagem"></textarea>
-				</div>
+				</fieldset>
 
     		  <button type="submit" class="medium">Enviar</button>
     		</form>
@@ -227,7 +229,7 @@
     		  title="Mapa da clínica">
 			</iframe>
 
-			<div class="info">
+			<address class="info">
 				<h3>Fale Conosco</h3>
     			<ul>
     			    <li><i class="fa-2x fa fa-phone"></i><h5>(11) 98839-8134</h5></li>
@@ -235,8 +237,8 @@
     			    <li><i class="fa-2x fa fa-envelope"></i><h5>consultoria.alzira@gmail.com</h5></li>
     			    <li><i class="fa-2x fa fa-location-dot"></i><h5>Rua Chemin Del Pra, nº 172, São Paulo, Santana</h5></li>
 				</ul>
-			</div>
-    	</div>
+			</address>
+    	</section>
     </footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
