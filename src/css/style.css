@@ -361,6 +361,37 @@ header nav ul li a:hover {
     }
 }
 
+/* Status-bar */
+#status-bar {
+  width: 100%;
+  background-color: var(--dark-blue);                  
+  display: flex;                  
+  justify-content: space-evenly;  
+  align-items: center;
+  padding: 20px;        
+  flex-wrap: wrap;
+}
+
+#status-bar .estatistica {
+  text-align: center;
+  margin: 20px;
+}
+
+#status-bar .numero {
+    color: #FFF;
+    font-size: 2.83rem; /* tamanho dos números */
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+}
+
+#status-bar .texto {
+    font-family: "Montserrat", sans-serif;
+    color: #FFF;
+    font-size: 1.5rem; /* tamanho do texto */
+    display: block; /* faz o texto aparecer abaixo do número */
+    font-weight: 300;
+}
+
 /* Depoimentos */
 #depoimentos{
     margin-top: 10vh;
