@@ -100,19 +100,104 @@ footer{
 
 /* Header */
 header{
-    padding: 2em 4em;
+    padding: 0.8em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-nav ul{
+
+/* Logo */
+header .logo img {
+    height: 5rem; 
+    width: auto;
+}
+
+header nav ul{
     display: flex;
     justify-content: center;
     list-style: none;
     gap: 2vw;
 }
 
-nav ul li a{
+header nav ul li a{
     color: #FFF;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
+
+header nav ul li a:hover {
+    color: #d6d6d6;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+    header{
+        padding: 0.8em 1em;
+    }
+
+    header .logo img {
+        height: 3rem;
+    }
+    header nav ul li a h4{
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 600px) {
+    header .logo img {
+        height: 2.5rem;
+    }
+    header nav ul li a h4{
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 450px) {
+    header{
+        padding: 0.8em 0.2em;
+    }
+
+    header nav ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+        grid-template-rows: auto auto; /* duas linhas */
+        gap: 0.4em;
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul li a h4{
+        font-size: 1rem;
+    }
+
+    header nav ul li:nth-child(4),
+    header nav ul li:nth-child(5) {
+        grid-column: span 1; /* cada item ocupa 1 coluna */
+    }
+
+    header nav ul li:nth-child(4) {
+        grid-column: 1 / 2; /* vai para a esquerda */
+    }
+
+    header nav ul li:nth-child(5) {
+        grid-column: 2 / 3; /* vai para o meio */
+    }
+
+    header .logo img {
+        height: 1.875rem;
+    }
+}
+
+/* Seção - Início imagem do consultório */
+#inicio{
+    background-image: url('/src/img/consultorio.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
 
 /* Especialidades/Serviços */
 #especialidades ul{
