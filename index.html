@@ -101,9 +101,34 @@
     </section>
 
     <!-- Seção Sobre -->
-    <section id="sobre">
+    <section id="sobre" class="blue-background">
+	  	<h1>Sobre</h1>
+		<div class="sobre-container">
+			<div class="sobre-coluna">
+				<h3>A dentista</h3>
+	    	  	<figure class="sobre-figura">
+	    	    	<img src="./src/img/dentista-fake.jpeg" alt="A dentista">
+	    	    	<figcaption>
+	    	    	  	<h5 class="medium">Dra. Alzira Varão Lima</h5>
+	    	    	  	<h5>Periodontista formada pela USP</h5>
+	    	    	</figcaption>
+	    	  	</figure>
+	    	</div>
 
-    </section>
+			<p class="sobre-coluna">
+    		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, 
+			  vulputate augue quis, interdum urna. Etiam pharetra ex non auctor tincidunt. 
+			  Etiam ornare leo in rutrum elementum. Curabitur in urna dolor. Sed feugiat ullamcorper massa in egestas. 
+			  Sed consequat, sapien quis ornare porta, diam orci interdum diam, eget vehicula ipsum nulla vel risus. 
+			  Phasellus  efficitur hendrerit nisl, nec ultrices augue mollis at. 
+			  Nunc sagittis interdum urna vitae fringilla. Sed iaculis in urna efficitur mattis. 
+			  Vivamus eget posuere nibh, id elementum eros. Mauris bibendum erat ut eros faucibus, 
+			  nec elementum velit tincidunt. Morbi ut nunc mauris. Duis feugiat ultrices aliquet. 
+			  Maecenas sed ullamcorper sapien. Etiam sit amet feugiat magna. In hac habitasse platea dictumst. 
+			  Vivamus congue justo nec euismod scelerisque. Duis pretium iaculis erat.
+    		</p>
+		</div>
+	</section>
 
     <!-- Barra de status -->
     <section id="status-bar">
@@ -113,13 +138,13 @@
     <!-- Depoimentos -->
     <section id="depoimentos" class="blue-background">
 		<h1>Depoimentos</h1>
-		<div class="swiper">
+		<article class="swiper">
 			<ul id="listaDepoimentos" class="swiper-wrapper">
 				<!-- Lista renderizada dinamicamente pelo Javascript -->
 			</ul>
 			<!-- If we need pagination -->
   			<span class="swiper-pagination"></span>
-		</div>
+		</article>
 		
 
   		<!-- If we need navigation buttons -->
@@ -130,7 +155,69 @@
 
     <!-- Rodapé com formulário, iframe do Google Maps e Informações de Contato -->
     <footer id="contato">
+		  	<div class="contato-container">
+		    <form class="formulario">
+				<h3>Formulário de Contato</h3>
+				
+				<div class="input-field">
+		      		<label for="nome">Nome</label>
+		      		<input type="text" id="nome" name="nome">
+			  	</div>
+			
+				<div class="input-field">
+		      		<label for="email">Email</label>
+		      		<input type="email" id="email" name="email">
+				</div>
 
+				<div class="input-field">
+		      		<label for="assunto">Assunto</label>
+		      		<input type="text" id="assunto" name="assunto">
+				</div>
+
+				<div class="input-field">
+		      		<label for="especialidade">Selecione uma especialidade</label>
+		      		<select id="especialidade" name="especialidade">
+		        		<option>Selecione</option>
+		        		<option>Estética</option>
+		        		<option>Dentística</option>
+		        		<option>Periodontia</option>
+		        		<option>Endodontia</option>
+		        		<option>Ortodontia</option>
+		        		<option>Implantodontia</option>
+		      		</select>
+				</div>
+
+				<div class="input-field">
+    		  		<label for="modalidade">Modalidade</label>
+    		  		<select id="modalidade" name="modalidade">
+    		    		<option>Presencial</option>
+    		    		<option>Teleconsulta</option>
+    		  		</select>
+				</div>
+
+				<div class="input-field">
+    		  		<label for="mensagem">Mensagem</label>
+    		  		<textarea id="mensagem" name="mensagem"></textarea>
+				</div>
+
+    		  <button type="submit" class="medium">Enviar</button>
+    		</form>
+
+    		<iframe class="mapa"
+    		  src="https://maps.google.com/maps?q=Rua%20Chemin%20Del%20Pra,%20172,%20São%20Paulo&t=m&z=15&output=embed&iwloc=near"
+    		  title="Mapa da clínica">
+			</iframe>
+
+			<div class="info">
+				<h3>Fale Conosco</h3>
+    			<ul>
+    			    <li><i class="fa-2x fa fa-phone"></i><h5>(11) 98839-8134</h5></li>
+    			    <li><i class="fa-2x fab fa-whatsapp"></i><h5>(11) 98839-8134</h5></li>
+    			    <li><i class="fa-2x fa fa-envelope"></i><h5>consultoria.alzira@gmail.com</h5></li>
+    			    <li><i class="fa-2x fa fa-location-dot"></i><h5>Rua Chemin Del Pra, nº 172, São Paulo, Santana</h5></li>
+				</ul>
+			</div>
+    	</div>
     </footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
