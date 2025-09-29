@@ -1,9 +1,18 @@
 document.addEventListener("DOMContentLoaded", function() {
     
   const listaDepoimentos = document.getElementById('listaDepoimentos');
+  const listaEspecialidades = document.getElementById('listaEspecialidades');
+  const formulario = document.getElementById('form');
+
+  //Alert de cupom de desconto
+  alert(`
+      Você ganhou um cupom de desconto!
+      Use o cumpom: NWEJKLWXJ!# 
+      E ganhe 30% no seu próximo atendimento!
+    `)
 
   // Obtém dados do JSON com os depoimentos
-  fetch('./depoimentos.json')
+  fetch('./dados.json')
     .then(response => {
       if (!response.ok) {
         throw new Error("Erro ao carregar o JSON: " + response.status);
@@ -11,8 +20,26 @@ document.addEventListener("DOMContentLoaded", function() {
       return response.json();
     })
     .then(data => {
+
+      // Carrega boxes com as especialidades dinamicamente
+      const servicos = data.especialidades;
+      servicos.forEach((especialidade) => {
+        const item = document.createElement('li');
+        item.innerHTML = `
+          <figure>
+				    <img src="./src/img/especialidades/${especialidade.imagem}" alt="${especialidade.nome}">
+				    <figcaption>
+					    <h4>${especialidade.nome}</h4>
+					    <p>${especialidade.texto}</p>
+				    </figcaption>
+			    </figure>
+        `;
+        listaEspecialidades.appendChild(item);
+      });
+
       // Carrega Boxes com os depoimentos dinamicamente
-      data.forEach((depoimento) => {
+      const depoimentos = data.depoimentos;
+      depoimentos.forEach((depoimento) => {
       const item = document.createElement("li");
       item.className = "dark-background swiper-slide";
       
@@ -78,4 +105,9 @@ document.addEventListener("DOMContentLoaded", function() {
       prevEl: '.swiper-button-prev',
     },
   });
+
+  formulario.addEventListener('submit', (e) => {
+    e.preventDefault();
+  });
+
 });

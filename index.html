@@ -43,67 +43,8 @@
     <!-- Seção de Especialidades/Serviços -->
     <section id="especialidades" class="white-background">
 	<h1>Especialidades</h1>
-	<ul id="serviceList">
-		<li id="esteticaItem">
-			<figure>
-				<img src="./src/img/especialidades/estetica.png" alt="Estética">
-				<figcaption>
-					<h4>Estética</h4>
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, vulputate augue quis, interdum urna. Etiam pharetra ex non auctor tincidunt. Etiam ornare leo in rutrum elementum. Curabitur in urna dolor.
-					</p>
-				</figcaption>
-			</figure>
-		</li>
-		<li id="dentisticaItem">
-			<figure>
-				<img src="./src/img/especialidades/dentistica.png" alt="Dentística">
-				<figcaption>
-					<h4>Dentística</h4>
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, vulputate augue quis, interdum urna. Etiam pharetra ex non auctor tincidunt. Etiam ornare leo in rutrum elementum. Curabitur in urna dolor.
-					</p>
-				</figcaption>
-			</figure>
-		</li>
-		<li id="periodontiaItem">
-			<figure>
-				<img src="./src/img/especialidades/periodontia.png" alt="Periodontia">
-				<figcaption>
-					<h4>Periodontia</h4>
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, vulputate augue quis, interdum urna. Etiam pharetra ex non auctor tincidunt. Etiam ornare leo in rutrum elementum. Curabitur in urna dolor.
-					</p>
-				</figcaption>
-			</figure>
-		</li>
-		<li id="endodontiaItem">
-			<figure>
-				<img src="./src/img/especialidades/endodontia.png" alt="Endodontia">
-				<figcaption>
-					<h4>Endodontia</h4>
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, vulputate augue quis, interdum urna. Etiam pharetra ex non auctor tincidunt. Etiam ornare leo in rutrum elementum. Curabitur in urna dolor.
-					</p>
-				</figcaption>
-			</figure>
-		</li>
-		<li id="ortodontiaItem">
-			<figure>
-				<img src="./src/img/especialidades/ortodontia.png" alt="Ortodontia">
-				<figcaption>
-					<h4>Ortodontia</h4>
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, vulputate augue quis, interdum urna. Etiam pharetra ex non auctor tincidunt. Etiam ornare leo in rutrum elementum. Curabitur in urna dolor.
-					</p>
-				</figcaption>
-			</figure>
-		</li>
-		<li id="implantodontiaItem">
-			<figure>
-				<img src="./src/img/especialidades/implantodontia.png" alt="Implantodontia">
-				<figcaption>
-					<h4>Implantodontia</h4>
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sem viverra, vulputate augue quis, interdum urna. Etiam pharetra ex non auctor tincidunt. Etiam ornare leo in rutrum elementum. Curabitur in urna dolor.
-					</p>
-				</figcaption>
-			</figure>
-		</li>
+	<ul id="listaEspecialidades">
+		<!-- Lista renderizada dinamicamente pelo Javascript -->
 	</ul>
     </section>
 
@@ -184,7 +125,7 @@
     <!-- Rodapé com formulário, iframe do Google Maps e Informações de Contato -->
     <footer id="contato">
 		  	<section class="contato-container">
-		    <form class="formulario">
+		    <form id="form" class="formulario">
 				<h3>Formulário de Contato</h3>
 				
 				<fieldset class="input-field">
@@ -249,6 +190,7 @@
     </footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 	<script src="./src/js/script.js"></script>
 </body>
 </html>

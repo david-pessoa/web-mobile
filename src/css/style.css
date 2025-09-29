@@ -262,6 +262,7 @@ header nav ul li a:hover {
     overflow: hidden;     /* não deixa vazar */
     transition: all .7s ease-in-out;
     margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 #especialidades figure:hover figcaption p{
