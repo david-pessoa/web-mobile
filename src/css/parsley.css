@@ -4,17 +4,18 @@ input.parsley-error,
 select.parsley-error,
 textarea.parsley-error {
   background-color: #FFF;
-  border: 3px solid #FF1717;
+  border: 1px solid #fc6565 !important;
+  margin-bottom: 2px !important;
 }
 
 .parsley-errors-list {
   margin: 2px 0 3px;
   padding: 0;
   list-style-type: none;
-  font-size: 0.9em;
+  font-size: 0.8em;
   line-height: 0.9em;
   opacity: 0;
-  color: #FF1717;
+  color: #fc6565;
   font-family: "Montserrat", Arial, sans-serif;
 
   transition: all .3s ease-in;
