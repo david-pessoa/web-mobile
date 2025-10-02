@@ -106,8 +106,10 @@ document.addEventListener("DOMContentLoaded", function() {
     },
   });
 
-  formulario.addEventListener('submit', (e) => {
-    e.preventDefault();
-  });
+  $(document).ready(function() {
+    // Inicializa o Parsley.js no formulário e define o locale para pt-br
+    $('#form').parsley();
+    Parsley.setLocale('pt-br');
 
+  });
 });
