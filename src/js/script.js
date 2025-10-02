@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
   alert(`
       Você ganhou um cupom de desconto!
       Use o cumpom: NWEJKLWXJ!# 
-      E ganhe 30% no seu próximo atendimento!
+      E ganhe 30% de desconto no seu próximo atendimento!
     `)
 
   // Obtém dados do JSON com os depoimentos
