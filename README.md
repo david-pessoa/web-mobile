@@ -59,6 +59,9 @@ Além disso, a página exibe:
  - uma barra de status mostrando o número de pacientes atendidos, anos de experiência, número de certificações, número de procedimentos realizados, etc.;
  - um carrossel com os depoimentos dos pacientes atendidos;
 
+## Tutorial do projeto
+<a href="./check-in-3.pdf">Clique aqui</a> para ler o tutorial do projeto com a explicação do código desenvolvido.
+
 ## Imagens do Protótipo
 ### Versão mobile
 A versão mobile do protótipo foi feita para a tela de um IPhone SE. A intenção é garantir que o conteúdo consiga caber até mesmo dentro de telas de smartphone com largura pequena (neste caso 320px)
