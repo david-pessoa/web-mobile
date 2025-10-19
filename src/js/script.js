@@ -2,14 +2,6 @@ document.addEventListener("DOMContentLoaded", function() {
     
   const listaDepoimentos = document.getElementById('listaDepoimentos');
   const listaEspecialidades = document.getElementById('listaEspecialidades');
-  const formulario = document.getElementById('form');
-
-  //Alert de cupom de desconto
-  alert(`
-      Você ganhou um cupom de desconto!
-      Use o cumpom: NWEJKLWXJ!# 
-      E ganhe 30% de desconto no seu próximo atendimento!
-    `)
 
   // Obtém dados do JSON com os depoimentos
   fetch('./dados.json')
